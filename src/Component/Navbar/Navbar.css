@@ -1,27 +1,82 @@
 .buy2hand-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  display:flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: blue;
 }
-.buy2hand-container-content{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.buy2hand-container-content-home{
+  margin-left: 40px;
+  text-decoration: none;
+  color:black;
+  font-family:Arial, Helvetica, sans-serif;
+  }
+.buy2hand-container-content-search{
+  margin-left: 40px;
+  outline: none;
+}
+.buy2hand-container-content-sell{
+  text-decoration: none;
+  color: black;
+  margin-right: 40px;
+  float: right;
+ }
+.buy2hand-container-content-login{
+ text-decoration: none;
+ margin-right: 40px;
+ color: black;
 }
 
-.buy2hand-container-content-home{
+.buy2hand-container-content-home:hover{
+ color: aliceblue;
+ }
+ .buy2hand-container-content-login:hover{
+  color: aliceblue;
+  }
+
+.buy2hand-container-content-sell:hover{
+    color: aliceblue;
+  }
+.All-tags{
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-around;
+  background-color: gray;
+  color: white;
+}
+.buy2hand-container-tags-bikes, .buy2hand-container-tags-cars, .buy2hand-container-tags-furniture, .buy2hand-container-tags-mobiles,
+.buy2hand-container-tags-books, .buy2hand-container-tags-gym-items, .buy2hand-container-tags-music-instrument, .buy2hand-container-tags-sport-equipment,
+.buy2hand-container-tags-computer-laptops{
   text-decoration: none;
   color: black;
+  transition-duration: 0.9s;
+
 }
-.buy2hand-container-content-login{
-  text-decoration: none;
-  color: black;
-  margin-right: 10px;
+   
+.buy2hand-container-tags-sport-equipment:hover, 
+.buy2hand-container-tags-books:hover,
+.buy2hand-container-tags-music-instrument:hover, 
+.buy2hand-container-tags-gym-items:hover, 
+.buy2hand-container-tags-books:hover,
+.buy2hand-container-tags-mobiles:hover,
+.buy2hand-container-tags-furniture:hover,
+.buy2hand-container-tags-cars:hover,
+.buy2hand-container-tags-bikes:hover,
+.buy2hand-container-tags-computer-laptops:hover{
+ 
+  color:white;
+  border: 1px solid white;
+  
 }
-.buy2hand-container-content-search{
-    margin-left: 50px;
-    outline: none;
-    border: none;
+.option{
+  outline: none;
+  border: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: black;
+  color:aliceblue
 }
+
+
+
