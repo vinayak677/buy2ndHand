@@ -4,6 +4,8 @@
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: blue;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
 }
 .buy2hand-container-content-home{
   margin-left: 40px;
@@ -42,15 +44,16 @@
   padding-top: 10px;
   padding-bottom: 10px;
   justify-content: space-around;
-  background-color: gray;
+  background-color :gray;
   color: white;
+  font-family: 'Raleway', sans-serif;
 }
 .buy2hand-container-tags-bikes, .buy2hand-container-tags-cars, .buy2hand-container-tags-furniture, .buy2hand-container-tags-mobiles,
 .buy2hand-container-tags-books, .buy2hand-container-tags-gym-items, .buy2hand-container-tags-music-instrument, .buy2hand-container-tags-sport-equipment,
 .buy2hand-container-tags-computer-laptops{
   text-decoration: none;
   color: black;
-  transition-duration: 0.9s;
+  /* transition-duration: 0.9s; */
 
 }
    
@@ -75,8 +78,36 @@
   padding-top: 2px;
   padding-bottom: 2px;
   background-color: black;
-  color:aliceblue
+  color:white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
 }
-
-
-
+@media screen and (max-width: 960px) {
+  .buy2hand-container{
+    font-size: 15px;
+  }
+  .All-tags{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    align-self: end;
+  }
+  .option{
+    display: grid;
+    grid-column: span 3;
+    grid-row: 1/3;
+    justify-self: start;
+  }
+}
+@media screen and (max-width: 800px) {
+  .buy2hand-container{
+    padding-right: 30px;
+    font-size: 15px;
+    margin-right: -300px;
+  
+  }
+  .All-tags{
+    margin-right: -300px;
+  }
+  
+}
